@@ -1,0 +1,32 @@
+#KeyBoard{
+    border:  1px solid black;
+    width: 48vw;
+    height: 40%;
+}
+button{
+    width: 50px;
+    height: 40px;
+    margin: 4px;
+}
+input{
+    width:100vw;
+    height: 50vh;
+}
+#backspace{
+    width: 100px;
+}
+#tab{
+    width: 100px;
+}
+#caps{
+    width: 120px;
+}
+#enter{
+    width: 90px;
+}
+.shift{
+    width: 120px;
+}
+#space{
+    width: 85%;
+}
