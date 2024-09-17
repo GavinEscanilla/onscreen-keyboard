@@ -6,16 +6,14 @@
     cap: '~',
     id: 0,
     keybind: document.getElementById('key1'),
+    pressed(){
+         this.keybind.addEventListener('click', () =>{
+            input.innerHTML = '`';
+         })
+    }
 },
     ];
-
-
-    class keyboard{
-        constructor(){
-            this.pressed = button.addEventListener('click', () =>{
-  input.innerHTML ++ 
-            })
-        }
-    }
- 
-
+ button.addEventListener('click', () =>{
+ input.textContent = " hello world";
+ })
+ input.textContent = "ed";
